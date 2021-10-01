@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -81,18 +81,25 @@ nav li {
     font-size: 14px;
 }
 
-
-
-
-
 /* **** main **** */
 
 main {
     margin-bottom: 10px;
 }
 
+/* sezione title */
+
 .title {
     width: 100%;
+}
+
+.title h1 {
+    font-weight: bold;
+
+}
+
+.title span {
+    color: #b4b4b4;
 }
 
 .side-left, .side-right {
