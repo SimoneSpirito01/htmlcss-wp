@@ -24,12 +24,10 @@
 
 /* **** header **** */
 
+/* sezione header top */
+
 .header-top {
     height: 100px;
-}
-
-.header-bottom {
-    height: 400px;
 }
 
 #logo {
@@ -51,6 +49,41 @@ nav li {
     color: #b4b4b4;
     padding-right: 5px;
 }
+
+/* sezione header bottom */
+
+.header-bottom {
+    position: relative;
+    height: 400px;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: 0% 45%;
+    border-radius: 10px;
+    color: white;
+}
+
+.filtro {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.img-description {
+    position: absolute;
+    left: 40px;
+    bottom: 80px;
+    width: 50%;
+}
+
+.img-description p {
+    font-size: 14px;
+}
+
+
+
+
 
 /* **** main **** */
 
