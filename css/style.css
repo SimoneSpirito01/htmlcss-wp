@@ -31,6 +31,10 @@
     border-radius: 12px;
 }
 
+.grey {
+    color: #b4b4b4;
+}
+
 /* **** header **** */
 
 /* sezione header top */
@@ -55,7 +59,6 @@ nav li {
     list-style-type: none;
     text-transform: uppercase;
     font-size: 14px;
-    color: #b4b4b4;
     padding-right: 5px;
 }
 
@@ -105,23 +108,10 @@ section > h4 {
     font-weight: 500;
 }
 
-section > p {
-    color: #b4b4b4;
-}
-
 /* sezione title */
 
-.title {
-    width: 100%;
-}
-
 .title h1 {
-    font-weight: bold;
-
-}
-
-.title span {
-    color: #b4b4b4;
+    font-size: 30px;
 }
 
 /* sezione main content */
@@ -151,6 +141,12 @@ section > p {
 
 footer {
     height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+footer > span {
+    color: red;
 }
 
 /* debug */
