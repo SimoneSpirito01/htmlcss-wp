@@ -1,0 +1,98 @@
+/* **** commons ****  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 76%;
+    margin: 20px auto;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* **** header **** */
+
+.header-top {
+    height: 100px;
+}
+
+.header-bottom {
+    height: 400px;
+}
+
+
+/* **** main **** */
+
+main {
+    margin-bottom: 10px;
+}
+
+.title {
+    width: 100%;
+}
+
+.side-left, .side-right {
+    width: 20%;
+}
+
+.center {
+    width: 56%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.side-left, .center, .side-right {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+/* ***** footer **** */
+
+footer {
+    height: 40px;
+}
+
+/* debug */
+
+.debug .header-top {
+    background-color: #e579e6;
+}
+
+.debug .header-bottom {
+    
+    background-color: #e1d67a;
+}
+
+.debug .title {
+    height: 100px;
+}
+
+.debug main {
+    background-color: #0086ff;
+}
+
+.debug section {
+    background-color: #abcfe7;
+}
+
+.debug .side-left, .debug .center, .debug .side-right {
+    height: 450px;
+}
+
+.debug footer {
+    background-color: #8403fd;
+}
+
+
